@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forest n-Queens</title>
+    <style>
+        #container {
+            display: flex;
+			flex-direction: column;
+            align-items: center;
+        }
+
+        #chessboard {
+            display: grid;
+            width: 600px;
+            height: 600px;  /* Fixed size */
+            border: 2px solid black;
+			margin-bottom: 20px;
+        }
+
+        .white {
+            background-color: #f0d9b5;
+			position: relative; 
+			user-select: none; 
+        }
+
+        .black {
+            background-color: #b58863;
+			position: relative;
+			user-select: none;
+        }
+
+		img {
+			position: absolute;
+			top: 0; 
+			left: 0; 
+			width: 100%; 
+			height: 100%;
+			pointer-events: none;
+			user-select: none; 
+		}
+		
+		#info {
+            margin-bottom: 10px; 
+            text-align: center; 
+			user-select: none; 
+        }
+		
+        .button-container {
+            display: flex; 
+            gap: 5px;
+        }
+
+        .control-button {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+			user-select: none;
+        }
+
+        .control-button:hover {
+            background-color: #45a049;
+        }	
+		
+		#success-message {
+            color: #4CAF50;
+            font-weight: bold;
+            display: none; /* Initially hidden */
+            text-align: center;
+        }
+		
+    </style>
+</head>
+<body>
+    <div id="container">
+	    <div id="info">
+            <div id="puzzleNumber">Puzzle number: 0/500</div>
+            <div id="boardGoal">Place 8 queens!</div>
+        </div>
+        <div id="chessboard"></div>
+		<div id="success-message">Nicely done!</div>
+        <div class="button-container">
+            <button id="prevButton" class="control-button">Prev</button>
+            <button id="nextButton" class="control-button">Next</button>
+        </div>
+
+    </div>
+
+	<script src="boards.js"></script> 
+    <script src="chessboard.js"></script>
+</body>
+</html>

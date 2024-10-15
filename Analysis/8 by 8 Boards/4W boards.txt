@@ -1,0 +1,8 @@
+Total 4W boards: 635376
+Total boards checked: 158976
+Max 4W queens: 11
+Max 4W queen example board: ((0, 0), (1, 3), (3, 4), (4, 1))
+There are 2708 boards with value 8. (1.70%)
+There are 96866 boards with value 9. (60.93%)
+There are 58928 boards with value 10. (37.07%)
+There are 474 boards with value 11. (0.30%)

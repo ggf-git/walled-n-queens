@@ -1,0 +1,3 @@
+read count_least_walls.zpl
+count
+write allsolutions solutions.sol

@@ -1,0 +1,5 @@
+Total 1W boards: 64
+Max 1W queens: 9
+Max 1W queen example board: ((1, 2),)
+There are 32 boards with value 8. (50.00%)
+There are 32 boards with value 9. (50.00%)

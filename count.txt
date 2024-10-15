@@ -1,0 +1,3 @@
+read model_counter.zpl
+count
+quit
